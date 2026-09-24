@@ -5,7 +5,7 @@ const posts = [
 ];
 
 export default function Home() {
-  const soBai: number = "3";
+  const soBai = posts.length;
 
   return (
     <main className="mx-auto max-w-2xl px-6 py-16">
